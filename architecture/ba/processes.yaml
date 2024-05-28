@@ -56,8 +56,8 @@ seaf.ba.processes:
       - flix.home_cinema
     next_processes:
       - flix.streaming_ondemand
-    supported:
-      - flix.home_cinema.recomendation.app
+    systems:
+      - flix.home_cinema.recomendation
 
   flix.play:
     title: Просмотр фильмов

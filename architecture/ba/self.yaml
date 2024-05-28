@@ -1,7 +1,29 @@
-seaf.self:
-  - flix.home_cinema
-  - flix.consumers
-  - flix.network
-  - flix.lan
-  - flix.cluster_virtualization
+# seaf.self:
+#   - flix.home_cinema
+#   - flix.team
+#   - flix
   
+dochub.essentials.config:
+
+  # - key: ddd_contexts
+  #   title: DDD контексты
+  #   list:
+  #     - flix
+  #     - flix.team
+  #     - alfa
+
+seaf.nav:
+
+  # - title: Архитектура/Архитектура Бизнеса/Базовые представления SEAF-CORE/Продуктовый ландшафт/Фликс
+  #   link: "/entities/seaf.ba.products/landscape_wrapper?domain=flix"
+  #   order: 210
+  # - title: Архитектура/Архитектура Бизнеса/Базовые представления SEAF-CORE/Продуктовый ландшафт/Альфа
+  #   link: "/entities/seaf.ba.products/landscape_wrapper?domain=alfa"
+  #   order: 210
+
+  # - title: Архитектура/Архитектура Бизнеса/Базовые представления SEAF-CORE/Участники/Фликс
+  #   link: "/entities/seaf.ba.parties/org_str_wrapper?domain=flix"
+  #   order: 200
+  # - title: Архитектура/Архитектура Бизнеса/Базовые представления SEAF-CORE/Использование ресурсов/Фликс
+  #   link: "/entities/seaf.ba.resources/resources_usage_wrapper?domain=flix"
+  #   order: 300
