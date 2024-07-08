@@ -29,9 +29,9 @@ seaf.ba.products:
       - flix.home_cinema
       - flix.web_app
     owner: alfa
-    # exposed:
-    #   - flix.payments:
-    #       title: Оплата (Альфа)
+    exposed:
+      - flix.payments:
+          title: Оплата (Альфа)
 
   alfa.fl_auth:
     title: Аутентификация пользователей

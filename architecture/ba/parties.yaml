@@ -7,6 +7,7 @@ seaf.ba.parties:
     title: Альфа
     relates_to:
       - group
+    attr1: bla bla
 
   ezon:
     title: e-Zone
@@ -32,8 +33,13 @@ seaf.ba.parties:
 #  group.sosenka:
 #    title: Сосенка
 
+  flix.customers:
+    title: Клиенты Фликс
+
   flix.customers.fl:
     title: ФЛ
+    is_part_of: flix.customers
+
 
   flix.team:
     title: Внутренние сотрудники Фликс
